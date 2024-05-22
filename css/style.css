@@ -1,0 +1,38 @@
+body {
+  background-image: radial-gradient(lightblue, black);
+  height: 100vh;
+}
+
+div.in {
+  color: rgb(0, 0, 0);
+  width: 100px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 1em;
+  border-radius: 10px;
+  border: 3px;
+  border-color: white;
+  margin: 4px;
+  font-variant-numeric: ordinal;
+}
+
+div.label {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+  background-color: gray;
+  border-radius: 4px;
+}
+
+div.btn {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+div#RunBTN {
+  background-color: limegreen;
+}
+
+div#ResetBTN {
+  background-color: red;
+}
